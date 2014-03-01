@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E81B96AD18C25BB9004032FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81B96AC18C25BB9004032FD /* Cocoa.framework */; };
+		E81B96AF18C25BB9004032FD /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81B96AE18C25BB9004032FD /* SpriteKit.framework */; };
+		E81B96B918C25BB9004032FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E81B96B718C25BB9004032FD /* InfoPlist.strings */; };
+		E81B96BB18C25BB9004032FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E81B96BA18C25BB9004032FD /* main.m */; };
+		E81B96BF18C25BB9004032FD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E81B96BD18C25BB9004032FD /* Credits.rtf */; };
+		E81B96C118C25BB9004032FD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E81B96C018C25BB9004032FD /* MainMenu.xib */; };
+		E81B96C318C25BB9004032FD /* RPGMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E81B96C218C25BB9004032FD /* RPGMyScene.m */; };
+		E81B96C618C25BB9004032FD /* RPGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E81B96C518C25BB9004032FD /* RPGAppDelegate.m */; };
+		E81B96C918C25BB9004032FD /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = E81B96C818C25BB9004032FD /* Spaceship.png */; };
+		E81B96CB18C25BB9004032FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81B96CA18C25BB9004032FD /* Images.xcassets */; };
+		E81B96D218C25BB9004032FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81B96D118C25BB9004032FD /* XCTest.framework */; };
+		E81B96D318C25BB9004032FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81B96AC18C25BB9004032FD /* Cocoa.framework */; };
+		E81B96DB18C25BB9004032FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E81B96D918C25BB9004032FD /* InfoPlist.strings */; };
+		E81B96DD18C25BB9004032FD /* RPG_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E81B96DC18C25BB9004032FD /* RPG_GameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E81B96D418C25BB9004032FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E81B96A118C25BB9004032FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81B96A818C25BB9004032FD;
+			remoteInfo = RPG_Game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E81B96A918C25BB9004032FD /* RPG_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPG_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81B96AC18C25BB9004032FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E81B96AE18C25BB9004032FD /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		E81B96B118C25BB9004032FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E81B96B218C25BB9004032FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E81B96B318C25BB9004032FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E81B96B618C25BB9004032FD /* RPG_Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RPG_Game-Info.plist"; sourceTree = "<group>"; };
+		E81B96B818C25BB9004032FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E81B96BA18C25BB9004032FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E81B96BC18C25BB9004032FD /* RPG_Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RPG_Game-Prefix.pch"; sourceTree = "<group>"; };
+		E81B96BE18C25BB9004032FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E81B96C018C25BB9004032FD /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		E81B96C218C25BB9004032FD /* RPGMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPGMyScene.m; sourceTree = "<group>"; };
+		E81B96C418C25BB9004032FD /* RPGMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPGMyScene.h; sourceTree = "<group>"; };
+		E81B96C518C25BB9004032FD /* RPGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPGAppDelegate.m; sourceTree = "<group>"; };
+		E81B96C718C25BB9004032FD /* RPGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPGAppDelegate.h; sourceTree = "<group>"; };
+		E81B96C818C25BB9004032FD /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		E81B96CA18C25BB9004032FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E81B96D018C25BB9004032FD /* RPG_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPG_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81B96D118C25BB9004032FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E81B96D818C25BB9004032FD /* RPG_GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RPG_GameTests-Info.plist"; sourceTree = "<group>"; };
+		E81B96DA18C25BB9004032FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E81B96DC18C25BB9004032FD /* RPG_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPG_GameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E81B96A618C25BB9004032FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81B96AF18C25BB9004032FD /* SpriteKit.framework in Frameworks */,
+				E81B96AD18C25BB9004032FD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81B96CD18C25BB9004032FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81B96D318C25BB9004032FD /* Cocoa.framework in Frameworks */,
+				E81B96D218C25BB9004032FD /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E81B96A018C25BB9004032FD = {
+			isa = PBXGroup;
+			children = (
+				E81B96B418C25BB9004032FD /* RPG_Game */,
+				E81B96D618C25BB9004032FD /* RPG_GameTests */,
+				E81B96AB18C25BB9004032FD /* Frameworks */,
+				E81B96AA18C25BB9004032FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E81B96AA18C25BB9004032FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E81B96A918C25BB9004032FD /* RPG_Game.app */,
+				E81B96D018C25BB9004032FD /* RPG_GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E81B96AB18C25BB9004032FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E81B96AC18C25BB9004032FD /* Cocoa.framework */,
+				E81B96AE18C25BB9004032FD /* SpriteKit.framework */,
+				E81B96D118C25BB9004032FD /* XCTest.framework */,
+				E81B96B018C25BB9004032FD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81B96B018C25BB9004032FD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E81B96B118C25BB9004032FD /* AppKit.framework */,
+				E81B96B218C25BB9004032FD /* CoreData.framework */,
+				E81B96B318C25BB9004032FD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E81B96B418C25BB9004032FD /* RPG_Game */ = {
+			isa = PBXGroup;
+			children = (
+				E81B96C018C25BB9004032FD /* MainMenu.xib */,
+				E81B96C218C25BB9004032FD /* RPGMyScene.m */,
+				E81B96C418C25BB9004032FD /* RPGMyScene.h */,
+				E81B96C518C25BB9004032FD /* RPGAppDelegate.m */,
+				E81B96C718C25BB9004032FD /* RPGAppDelegate.h */,
+				E81B96C818C25BB9004032FD /* Spaceship.png */,
+				E81B96CA18C25BB9004032FD /* Images.xcassets */,
+				E81B96B518C25BB9004032FD /* Supporting Files */,
+			);
+			path = RPG_Game;
+			sourceTree = "<group>";
+		};
+		E81B96B518C25BB9004032FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E81B96B618C25BB9004032FD /* RPG_Game-Info.plist */,
+				E81B96B718C25BB9004032FD /* InfoPlist.strings */,
+				E81B96BA18C25BB9004032FD /* main.m */,
+				E81B96BC18C25BB9004032FD /* RPG_Game-Prefix.pch */,
+				E81B96BD18C25BB9004032FD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E81B96D618C25BB9004032FD /* RPG_GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				E81B96DC18C25BB9004032FD /* RPG_GameTests.m */,
+				E81B96D718C25BB9004032FD /* Supporting Files */,
+			);
+			path = RPG_GameTests;
+			sourceTree = "<group>";
+		};
+		E81B96D718C25BB9004032FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E81B96D818C25BB9004032FD /* RPG_GameTests-Info.plist */,
+				E81B96D918C25BB9004032FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E81B96A818C25BB9004032FD /* RPG_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81B96E018C25BB9004032FD /* Build configuration list for PBXNativeTarget "RPG_Game" */;
+			buildPhases = (
+				E81B96A518C25BB9004032FD /* Sources */,
+				E81B96A618C25BB9004032FD /* Frameworks */,
+				E81B96A718C25BB9004032FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPG_Game;
+			productName = RPG_Game;
+			productReference = E81B96A918C25BB9004032FD /* RPG_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E81B96CF18C25BB9004032FD /* RPG_GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81B96E318C25BB9004032FD /* Build configuration list for PBXNativeTarget "RPG_GameTests" */;
+			buildPhases = (
+				E81B96CC18C25BB9004032FD /* Sources */,
+				E81B96CD18C25BB9004032FD /* Frameworks */,
+				E81B96CE18C25BB9004032FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E81B96D518C25BB9004032FD /* PBXTargetDependency */,
+			);
+			name = RPG_GameTests;
+			productName = RPG_GameTests;
+			productReference = E81B96D018C25BB9004032FD /* RPG_GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E81B96A118C25BB9004032FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RPG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Joshua Matthews";
+				TargetAttributes = {
+					E81B96CF18C25BB9004032FD = {
+						TestTargetID = E81B96A818C25BB9004032FD;
+					};
+				};
+			};
+			buildConfigurationList = E81B96A418C25BB9004032FD /* Build configuration list for PBXProject "RPG_Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E81B96A018C25BB9004032FD;
+			productRefGroup = E81B96AA18C25BB9004032FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E81B96A818C25BB9004032FD /* RPG_Game */,
+				E81B96CF18C25BB9004032FD /* RPG_GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E81B96A718C25BB9004032FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81B96C918C25BB9004032FD /* Spaceship.png in Resources */,
+				E81B96CB18C25BB9004032FD /* Images.xcassets in Resources */,
+				E81B96B918C25BB9004032FD /* InfoPlist.strings in Resources */,
+				E81B96BF18C25BB9004032FD /* Credits.rtf in Resources */,
+				E81B96C118C25BB9004032FD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81B96CE18C25BB9004032FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81B96DB18C25BB9004032FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E81B96A518C25BB9004032FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81B96C318C25BB9004032FD /* RPGMyScene.m in Sources */,
+				E81B96BB18C25BB9004032FD /* main.m in Sources */,
+				E81B96C618C25BB9004032FD /* RPGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81B96CC18C25BB9004032FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81B96DD18C25BB9004032FD /* RPG_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E81B96D518C25BB9004032FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E81B96A818C25BB9004032FD /* RPG_Game */;
+			targetProxy = E81B96D418C25BB9004032FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E81B96B718C25BB9004032FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81B96B818C25BB9004032FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E81B96BD18C25BB9004032FD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81B96BE18C25BB9004032FD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E81B96D918C25BB9004032FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81B96DA18C25BB9004032FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E81B96DE18C25BB9004032FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E81B96DF18C25BB9004032FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E81B96E118C25BB9004032FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RPG_Game/RPG_Game-Prefix.pch";
+				INFOPLIST_FILE = "RPG_Game/RPG_Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E81B96E218C25BB9004032FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RPG_Game/RPG_Game-Prefix.pch";
+				INFOPLIST_FILE = "RPG_Game/RPG_Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E81B96E418C25BB9004032FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RPG_Game.app/Contents/MacOS/RPG_Game";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RPG_Game/RPG_Game-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RPG_GameTests/RPG_GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E81B96E518C25BB9004032FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RPG_Game.app/Contents/MacOS/RPG_Game";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RPG_Game/RPG_Game-Prefix.pch";
+				INFOPLIST_FILE = "RPG_GameTests/RPG_GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E81B96A418C25BB9004032FD /* Build configuration list for PBXProject "RPG_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81B96DE18C25BB9004032FD /* Debug */,
+				E81B96DF18C25BB9004032FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81B96E018C25BB9004032FD /* Build configuration list for PBXNativeTarget "RPG_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81B96E118C25BB9004032FD /* Debug */,
+				E81B96E218C25BB9004032FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E81B96E318C25BB9004032FD /* Build configuration list for PBXNativeTarget "RPG_GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81B96E418C25BB9004032FD /* Debug */,
+				E81B96E518C25BB9004032FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E81B96A118C25BB9004032FD /* Project object */;
+}
