@@ -9,5 +9,15 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface RPGMyScene : SKScene
+{
+    SKLabelNode *myLabel;
+    SKLabelNode *pressScreen;
+    SKLabelNode *startButton;
+    SKLabelNode *optionButton;
+    SKSpriteNode *optionsImage;
+    SKAction *fade;
+    BOOL pressedFirst;
+}
+
 
 @end
